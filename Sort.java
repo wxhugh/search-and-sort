@@ -12,17 +12,12 @@ public class Sort{
 					newNums[i] = newNums[i+1];
 					newNums[i+1] = temp;
 					stillSorting = true;
-}
-				
+				}
 
 
-}
-}
-return newNums;
-}
-public static void main(String args[]){
-int[] x = {9,8,7};
-x = Sort.sortInt(x);
-for(int a : x) System.out.println(a);
-}
+
+			}
+		}
+		return newNums;
+	}
 }
